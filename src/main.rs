@@ -1,5 +1,5 @@
 /*
-Port of "Secret weapon" BASIC game
+Port of "Traitor's Castle" BASIC game
 from "Computer Battlegames" book 1982
 for ZX Spectrum and other microcomputers
 original BASIC code
