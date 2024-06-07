@@ -1,6 +1,6 @@
 /*
 Port of "Secret weapon" BASIC game
-from "Compute Battlegames" book 1982
+from "Computer Battlegames" book 1982
 for ZX Spectrum and other microcomputers
 original BASIC code
 
@@ -50,7 +50,7 @@ fn main() -> std::io::Result<()> {
     let mut score = 0;
     
     terminal::enable_raw_mode()?;
-    
+
     for _goes in 0..10 {
         let mut row = String::new();
         let target = rand::thread_rng().gen_range(1..=9);
